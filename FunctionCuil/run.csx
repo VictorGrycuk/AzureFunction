@@ -38,8 +38,6 @@ public static bool ValidateDNI(string DNI)
             { dni = Convert.ToInt32(DNI); }
             catch (Exception)
             { return false; }
-
-            return true;
 	
 	return true;
 }
