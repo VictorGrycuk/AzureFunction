@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "disabled": false,
   "bindings": [
@@ -17,4 +18,25 @@
       "direction": "out"
     }
   ]
+=======
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+>>>>>>> 405dcd954244bb5c3b2a270c6624bfb3cf8ca29c
 }
